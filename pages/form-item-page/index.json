@@ -1,0 +1,9 @@
+{
+    "navigationBarTitleText": "表单组件",
+    "usingComponents": {
+        "form-input-item": "/components/form-input-item/index",
+        "form-switch-item": "/components/form-switch-item/index",
+        "form-counter-item": "/components/form-counter-item/index",
+        "form-options-item": "/components/form-options-item/index"
+    }
+}

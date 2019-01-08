@@ -1,0 +1,18 @@
+/* pages/form-item-page/index.wxss */
+.form-container {
+    padding-top: 32rpx;
+    background: #F6F6F6;
+    min-height: 100%;
+}
+
+icon {
+    width: 41rpx;
+    height: 40rpx;
+    background-size: cover;
+}
+
+.left-input {
+    text-align: left;
+    font-size: 28rpx;
+    color: #555555;
+}

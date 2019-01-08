@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "custom-modal组件",
+  "usingComponents": {
+    "custom-modal": "/components/custom-modal/custom-modal"
+  }
+}

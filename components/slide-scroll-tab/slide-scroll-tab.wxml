@@ -1,0 +1,27 @@
+<!--components/ slideTab/ slideTab.wxml-->
+<view class="slide-container">
+    <view class="slide-header">
+        <view class="slide-tab" wx:for="{{tabs}}" wx:key="index">
+            <text class="{{currentTab === index ? 'active': ''}}" catchtap="selectTab" data-index="{{index}}">{{item}}</text>
+        </view>
+    </view>
+    <swiper  
+        class="tab-content" 
+        current="{{currentTab}}" 
+        duration="300" 
+        bindchange="switchTab"
+        style="height:{{winHeight - 152}}rpx">
+        <!-- 152是头部的高度，需要根据实际情况 -->
+        <swiper-item 
+            wx:for="{{tabs}}" 
+            wx:key="index" 
+            class="slide-content-item">
+            <scroll-view 
+                style="height:{{winHeight - 152}}rpx"
+                scroll-y  
+                enable-back-to-top >
+                <slot name="{{'tab-content-' + index}}"></slot>
+            </scroll-view>
+        </swiper-item>
+    </swiper>
+</view>

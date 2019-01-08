@@ -1,0 +1,9 @@
+/* pages/header-toast-page/index.wxss */
+.container {
+  padding: 150rpx 20rpx 0;
+}
+input {
+  margin: 50rpx 0;
+  height: 100rpx;
+  border-bottom: 1rpx solid #ccc;
+}

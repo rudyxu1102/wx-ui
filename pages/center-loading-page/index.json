@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "center-loading组件",
+  "usingComponents": {
+    "center-loading": "/components/center-loading/center-loading"
+  }
+}

@@ -1,0 +1,13 @@
+<!--pages/slide-scroll-tab-page/index.wxml-->
+<slide-scroll-tab tabs="{{tabs}}">
+  <view slot="tab-content-0" class="tab-content">
+    <view wx:for="{{formList}}" wx:key="index" class="form-item">
+      {{item.content}}
+    </view>
+  </view>
+  <view slot="tab-content-1" class="tab-content">
+    <view  wx:for="{{submitList}}" wx:key="index" class="form-item">
+      {{item.content}}
+    </view>
+  </view>  
+</slide-scroll-tab>

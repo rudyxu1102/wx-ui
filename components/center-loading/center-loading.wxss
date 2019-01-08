@@ -1,0 +1,42 @@
+/* pages/loading/loading.wxss */
+.loading-wrap{
+    width: 100vw;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loading{
+    width: 180rpx;
+    height: 180rpx;
+    position: relative;
+}
+.loading-bg{
+    width: 180rpx;
+    height: 180rpx;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+.loading-rotateing{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 180rpx;
+    height: 180rpx;
+    animation: rotating 600ms linear 0ms reverse infinite;
+}
+
+@keyframes rotating{
+    from{
+        transform: rotate(0);
+    }
+    to{
+          transform: rotate(-360deg);
+    }
+}

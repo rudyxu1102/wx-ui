@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "footer-option组件",
+  "usingComponents": {
+    "footer-option": "/components/footer-option/footer-option"
+  }
+}

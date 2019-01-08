@@ -1,0 +1,4 @@
+<!--pages/footer-loading-oage/index.wxml-->
+<button catchtap="showLoading">加载</button>  
+<button class="bottom-btn" catchtap="toBottom">到底</button>  
+<footer-loading isShow="{{isShow}}" isBottomTip="{{isToBottom}}"></footer-loading>

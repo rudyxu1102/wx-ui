@@ -1,0 +1,5 @@
+<!--pages/slide-view-page/index.wxml-->
+<slide-view wx:for="{{list}}" wx:key="index" isClose="{{currentItem !== index}}" optionWidth="150rpx" bindclickEvent="selectItem" data-index="{{index}}">
+  <view slot="content" class="list-content">{{item.content}}</view>
+  <view slot="option" class="list-option" bindtap="deleteItem" data-index="{{index}}">删除</view>  
+</slide-view>

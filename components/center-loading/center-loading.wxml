@@ -1,0 +1,7 @@
+<!--pages/loading/loading.wxml-->
+<view class='loading-wrap'>
+    <view class='loading'>
+        <image class='loading-bg' src='/image/loadingIcon.png'></image>
+        <image class='loading-rotateing' src='/image/loadingBorder.png'></image>
+    </view>
+</view>

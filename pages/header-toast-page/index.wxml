@@ -1,0 +1,6 @@
+<!--pages/header-toast-page/index.wxml-->
+<view class="container">
+  <header-toast title="{{tip}}" isShow="{{isShowTip}}"></header-toast>
+  <view>提示内容：<input value="{{tip}}" bindblur="changeTip"></input></view>
+  <button catchtap="showTip">显示</button>
+</view>

@@ -1,0 +1,11 @@
+<!--左右布局的列表元素布局-->
+<view 
+    class="list-item-container {{hasBottomBorder ? 'bottom-border' : ''}} {{hasTopBorder ? 'top-border' : ''}}" 
+    style="margin-top: {{marginTop}};height: {{height}}">
+    <!-- 左边的文字 -->
+    <text wx:if="{{tabName}}" class="list-item-container__name">{{tabName}}</text>
+    <!-- 左边自定义插槽 -->
+    <slot name="left" wx:if="{{!tabName}}" ></slot>   
+    <!-- 右边自定义插槽 -->    
+    <slot name="right"></slot>    
+</view>

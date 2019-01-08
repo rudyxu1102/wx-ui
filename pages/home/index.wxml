@@ -1,0 +1,55 @@
+<slide-scroll-tab tabs="{{tabs}}">
+  <view slot="tab-content-0" class="tab-content">
+    <navigator url="/pages/header-toast-page/index" class="home-item">
+        <text class="item-title">header-toast</text>
+        <text class="item-desc">顶部提示</text>
+    </navigator>
+    <navigator url="/pages/center-loading-page/index" class="home-item">
+        <text class="item-title">center-loading</text>
+        <text class="item-desc">屏幕中间的loading</text>
+    </navigator>
+    <navigator url="/pages/footer-loading-page/index" class="home-item">
+        <text class="item-title">footer-loading</text>
+        <text class="item-desc">屏幕底部的loading</text>
+    </navigator>
+    <navigator url="/pages/footer-option-page/index" class="home-item">
+        <text class="item-title">footer-option</text>
+        <text class="item-desc">屏幕底部的操作窗口</text>
+    </navigator>
+    <navigator url="/pages/custom-modal-page/index" class="home-item">
+        <text class="item-title">custom-modal</text>
+        <text class="item-desc">自定义弹窗</text>
+    </navigator>
+    <navigator url="/pages/slide-view-page/index" class="home-item">
+        <text class="item-title">slide-view</text>
+        <text class="item-desc">左滑删除组件</text>
+    </navigator>
+    <navigator url="/pages/slide-scroll-tab-page/index" class="home-item">
+        <text class="item-title">slide-scroll-tab</text>
+        <text class="item-desc">水平滑动切换组件</text>
+    </navigator>
+    <navigator url="/pages/scroll-tab-view-page/index" class="home-item">
+        <text class="item-title">scroll-tab-view</text>
+        <text class="item-desc">水平滑动切换组件【加强版】</text>
+    </navigator>
+    <navigator url="/pages/form-item-page/index?type=input" class="home-item">
+        <text class="item-title">form-input-item</text>
+        <text class="item-desc">表单组件【输入框】</text>
+    </navigator>
+    <navigator url="/pages/form-item-page/index?type=switch" class="home-item">
+        <text class="item-title">form-switch-item</text>
+        <text class="item-desc">表单组件【开关】</text>
+    </navigator>
+    <navigator url="/pages/form-item-page/index?type=options" class="home-item">
+        <text class="item-title">form-options-item</text>
+        <text class="item-desc">表单组件【添加选项】</text>
+    </navigator>
+    <navigator url="/pages/form-item-page/index?type=counter" class="home-item">
+        <text class="item-title">form-counter-item</text>
+        <text class="item-desc">表单组件【计数器】</text>
+    </navigator>
+  </view>
+  <view slot="tab-content-1" class="tab-content">
+
+  </view>  
+</slide-scroll-tab>

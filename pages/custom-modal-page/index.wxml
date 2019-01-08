@@ -1,0 +1,7 @@
+<!--pages/custom-modal-page/index.wxml-->
+<view class="show-btn"  catchtap="showModal" >显示</view>
+<custom-modal isShow="{{isShow}}" footerStyle="border-top: 1rpx solid #E6E6E6">
+  <view slot="modal-content" class="tip-content">是否取消此订单？</view>
+  <view slot="cancel-btn" class="cancel-tip-btn" bindtap="cancelOrder">确定</view>    
+  <view slot="confirm-btn" class="think-tip-btn" bindtap="hideModal">再想想</view>
+</custom-modal>

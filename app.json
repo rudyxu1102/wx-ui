@@ -1,0 +1,20 @@
+{
+    "pages": [
+        "pages/home/index",
+        "pages/header-toast-page/index",
+        "pages/center-loading-page/index",
+        "pages/footer-loading-page/index",
+        "pages/footer-option-page/index",
+        "pages/custom-modal-page/index",
+        "pages/slide-view-page/index",
+        "pages/slide-scroll-tab-page/index",
+        "pages/scroll-tab-view-page/index",
+        "pages/form-item-page/index"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "WeChat",
+        "navigationBarTextStyle": "black"
+    }
+}

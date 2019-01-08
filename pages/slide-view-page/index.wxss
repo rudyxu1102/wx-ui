@@ -1,0 +1,12 @@
+/* pages/slide-view-page/index.wxss */
+.list-content {
+  height: 110rpx;
+  line-height: 110rpx;
+}
+
+.list-option {
+  text-align: center;
+  background: red;
+  color: #fff;
+  font-size: 28rpx;
+}

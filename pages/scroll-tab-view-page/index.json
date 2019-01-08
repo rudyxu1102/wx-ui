@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "scroll-tab-view组件",
+  "usingComponents": {
+    "scroll-tab-view": "/components/scroll-tab-view/scroll-tab-view",
+    "footer-loading": "/components/footer-loading/footer-loading",
+    "center-loading": "/components/center-loading/center-loading"
+  }
+}

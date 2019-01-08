@@ -1,0 +1,4 @@
+/* pages/loading-page/index.wxss */
+button {
+  margin-top: 20rpx;
+}

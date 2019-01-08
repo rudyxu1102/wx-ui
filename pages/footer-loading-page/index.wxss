@@ -1,0 +1,4 @@
+/* pages/footer-loading-oage/index.wxss */
+.bottom-btn {
+  margin-bottom: 400rpx;
+}

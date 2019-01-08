@@ -1,0 +1,9 @@
+<!--左右布局的列表元素布局-->
+<view 
+    class="list-item-container {{hasBottomBorder ? 'bottom-border' : ''}}" 
+    style="margin-top: {{marginTop}};height: {{height}}">
+    <!-- 左边的文字 -->
+    <text class="list-item-container__name" catchtap="clickTab">{{tabName}}</text>
+    <!-- 右边开关组件 -->
+    <switch checked="{{switchCheck}}" class="list-item-container__right-switch" color="#3164FF" bindchange="switchChange"/>  
+</view>

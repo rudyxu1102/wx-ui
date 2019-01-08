@@ -1,0 +1,41 @@
+/* components/slideView/slideView.wxss */
+.slide-view {
+    position: relative;
+    height: 112rpx;
+    line-height: 112rpx;
+    overflow:hidden;
+    background: #fff;
+    z-index: 1;
+}
+
+.slide-view-border {
+    display: inline-block;
+    position: absolute;
+    bottom: 0rpx;
+    left: 45rpx;
+    right: 50rpx;
+    height: 2rpx;
+    background: #F3F3F3;
+    z-index: -1;
+}
+
+.slide-view-box {
+    display: flex;
+    padding-left: 45rpx;
+    height: 100%;
+    transition: all 100ms ease;
+}
+
+.slide-view__content {
+    flex: none;
+    width: 100%;
+    height: 100%;
+}
+
+.slide-view__option {
+    position: relative;
+    flex: none;    
+    height: 100%;
+    text-align: center;
+    z-index: 2;
+}

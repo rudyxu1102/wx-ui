@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "slide-scroll-tab组件",
+  "usingComponents": {
+    "slide-scroll-tab": "/components/slide-scroll-tab/slide-scroll-tab"
+  }
+}

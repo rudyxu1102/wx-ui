@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "顶部提示组件",
+  "usingComponents": {
+    "header-toast": "/components/header-toast/header-toast"
+  }
+}

@@ -1,0 +1,6 @@
+{
+    "navigationBarTitleText": "wxUI",
+    "usingComponents": {
+        "slide-scroll-tab": "/components/slide-scroll-tab/slide-scroll-tab"
+    }
+}

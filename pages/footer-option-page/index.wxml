@@ -1,0 +1,24 @@
+<!--pages/footer-option-page/index.wxml-->
+<footer-option isShow="{{isShow}}">
+  <view slot="header" class="option-header">添加组件</view>
+  <view slot="header" class="option-middle">
+    <view class="option-item">
+      <icon style="background-image: url({{resDomain+'manage/opt-edit.png'}})"></icon>
+      <text>编辑</text>
+    </view>
+    <view class="option-item">
+      <icon style="background-image: url({{resDomain+'manage/opt-copy.png'}})"></icon>
+      <text>复制</text>
+    </view>
+    <view class="option-item">
+      <icon style="background-image: url({{resDomain+'manage/opt-del.png'}})"></icon>
+      <text>删除</text>
+    </view>
+    <view class="option-item">
+      <icon style="background-image: url({{resDomain+'manage/opt-vdata.png'}})"></icon>
+      <text>数据</text>
+    </view>
+  </view>
+  <view slot="footer" class="option-footer" bindtap="hideOptions">取消</view>  
+</footer-option>
+<view catchtap="showOptions" class="show-btn">显示</view>

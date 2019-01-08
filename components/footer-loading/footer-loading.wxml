@@ -1,0 +1,6 @@
+<!--components/footerLoading/footerLoading.wxml-->
+<view hidden="{{!isShow}}" class="footerTips">
+    <image src='/image/loading.gif' class='loadingIcon'></image>
+    <text>加载中</text>
+</view>
+<view wx:if="{{isBottomTip}}" class="isLoadOver">已经到底了</view>

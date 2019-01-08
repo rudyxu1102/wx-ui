@@ -1,0 +1,59 @@
+/* pages/footer-option-page/index.wxss */
+.show-btn {
+  margin: 30rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  background: #3164FF;
+  color: #fff;
+  text-align: center;
+  border-radius: 10rpx;
+}
+
+.option-header {
+  height: 80rpx;
+  line-height: 80rpx;
+  border-bottom: 1rpx solid #ccc;
+}
+
+.option-middle {
+  padding: 50rpx;
+  display: flex;
+  justify-content: center;
+}
+
+.option-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-right: 50rpx;
+  padding: 20rpx;
+  width: 150rpx;
+  font-size: 28rpx;
+  background: rgb(247, 247, 247);
+  border-radius: 10rpx;
+}
+
+.option-item:nth-child(4n) {
+  margin-right: 0;
+}
+
+.option-item icon {
+  display: inline-block;
+  width: 40rpx;
+  height: 40rpx;
+  background-size: cover;
+}
+
+.option-item text {
+  margin-top: 10rpx;
+  flex: none;
+  width: 100%;
+  display: block;
+}
+
+.option-footer {
+  height: 80rpx;
+  line-height: 80rpx;
+  border-top: 1rpx solid #ccc;
+}

@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "slide-view组件",
+  "usingComponents": {
+    "slide-view": "/components/slide-view/slide-view"
+  }
+}

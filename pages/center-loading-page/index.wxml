@@ -1,0 +1,5 @@
+<!--pages/loading-page/index.wxml-->
+<center-loading wx:if="{{isShow}}"></center-loading>
+
+<button catchtap="showLoading">显示</button>
+<button catchtap="hideLoading">隐藏</button>

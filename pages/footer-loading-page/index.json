@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "footer-loading组件",
+  "usingComponents": {
+    "footer-loading": "/components/footer-loading/footer-loading"
+  }
+}

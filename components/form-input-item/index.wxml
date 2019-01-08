@@ -1,0 +1,9 @@
+<!--左右布局的列表元素布局-->
+<view 
+    class="list-item-container {{hasBottomBorder ? 'bottom-border' : ''}}" 
+    style="margin-top: {{marginTop}};height: {{height}}"
+    catchtap="clickTab">
+    <!-- 左边的文字 -->
+    <text class="list-item-container__name">{{tabName}}</text> 
+    <input class="right-input" value="{{value}}" placeholder="{{placeholder}}" bindblur="changeInput" focus="{{focusInput}}" adjust-position="{{adjustPos}}" cursor-spacing="100"></input>   
+</view>

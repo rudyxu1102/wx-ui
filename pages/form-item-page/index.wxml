@@ -1,0 +1,31 @@
+<!--pages/form-item-page/index.wxml-->
+<view class="form-container">
+    <!-- input表单组件 -->
+    <block wx:if="{{type === 'input'}}">
+        <form-input-item tabName="姓名" value="派大星" placeholder="请输入姓名" bindinputChange="changeInput" data-key="name" hasBottomBorder></form-input-item>
+        <form-input-item tabName="爱好" value="吃汉堡" placeholder="请输入爱好" bindinputChange="changeInput" data-key="hobby"></form-input-item>        
+        <form-input-item tabName="好朋友" value="海绵宝宝" placeholder="请输入姓名" bindinputChange="changeInput" data-key="friend" marginTop="32rpx"></form-input-item>
+    </block>
+    <!-- switch表单组件 -->    
+    <block wx:if="{{type === 'switch'}}">
+        <form-switch-item tabName="提交限制" switchCheck="{{true}}" bindswitchChange="changeSwitch" data-key="submit" hasBottomBorder></form-switch-item>
+        <form-switch-item tabName="次数限制" switchCheck="{{false}}" bindswitchChange="changeSwitch" data-key="times"></form-switch-item>  
+        <form-switch-item tabName="微信限制" switchCheck="{{true}}" bindswitchChange="changeSwitch" data-key="friend" marginTop="32rpx"></form-switch-item>
+    </block>
+    <!-- 添加选项表单组件 -->    
+    <block wx:if="{{type === 'options'}}">
+        <form-options-item tabName="选项" hasBottomBorder>
+            <icon slot="right" style="background-image:url({{resDomain}}image/wcdWxApp/editor/form-add.png{{resVersion}});" catchtap="addOption"></icon>
+        </form-options-item>
+        <form-options-item wx:for="{{options}}" wx:key="{{index}}" hasTopBorder="{{index !== 0}}">
+            <input slot="left" class="left-input" placeholder="{{'选项' + index}}" placeholder-style="color: #999999" value="{{item}}" bindblur="updateRadioOpt" data-index="{{index}}"></input>
+            <icon wx:if="{{options.length > 1}}" slot="right" style="background-image:url({{resDomain}}image/wcdWxApp/editor/reduce.png{{resVersion}});" catchtap="delOption" data-index="{{index}}"></icon>
+        </form-options-item>
+    </block>
+    <!-- counter计数器表单组件 -->    
+    <block wx:if="{{type === 'counter'}}">
+        <form-counter-item tabName="每人提交次数" bindcounterChange="changeCounter" times="2" counterUnit="次" data-key="submit" hasBottomBorder></form-counter-item>
+        <form-counter-item tabName="总提交次数" bindcounterChange="changeCounter"  times="5" counterUnit="次" data-key="total"></form-counter-item>        
+        <form-counter-item tabName="总计人数" bindcounterChange="changeCounter" times="6" counterUnit="人" minTime="4" maxTime="8" data-key="person" marginTop="32rpx"></form-counter-item>
+    </block>
+</view>

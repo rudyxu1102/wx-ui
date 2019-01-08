@@ -1,0 +1,17 @@
+<!-- 可以左滑的组件-->
+<view class="slide-view">
+    <view
+        class="slide-view-box" 
+        bind:touchstart="touchEleStart" 
+        bind:touchmove="touchEleMove" 
+        bind:touchend="touchEleEnd"
+        style="transform: translateX({{translateX}})">
+        <view class="slide-view__content">
+            <slot name="content"></slot>
+        </view>
+        <view class="slide-view__option" style="width: {{optionWidth}}">
+            <slot name="option"></slot>
+        </view> 
+    </view>      
+    <view class="slide-view-border"></view>     
+</view>
