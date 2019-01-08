@@ -1,6 +1,9 @@
 # 组件库
 小程序公共组件
 
+## 效果图
+![image](./image/wxui.gif)
+
 # 目录
 - [header-toast 顶部提示](./#user-content-header-toast组件)
 - [center-loading 屏幕中间的loading](./#user-content-center-loading组件)
